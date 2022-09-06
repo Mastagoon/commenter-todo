@@ -1,0 +1,25 @@
+{
+  "name": "commenter-todos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dist/index.js",
+    "todos": "node dist/index.js"
+  },
+  "bin": {
+    "todos": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "conf": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
